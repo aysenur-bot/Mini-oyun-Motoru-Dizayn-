@@ -1,10 +1,12 @@
 public class Main {
     public static void main(String[] args) {
 
-        GameObject p = GameObjectFactory.create("player");
-        GameObject e = GameObjectFactory.create("enemy");
-
-        p.update();
-        e.update();
+        GameEngineFacade game = new GameEngineFacade();
+        game.startGame();
     }
+    GameObject player = new SpeedBoost(
+        GameObjectFactory.create("player")
+);
+
+player.update();
 }

@@ -1,12 +1,8 @@
-# Factory Method Pattern
 
-## Kullanıldığı yer
-GameObjectFactory
+## Facade Pattern
+- Game engine complexity hidden behind single class
+- Main simplified
 
-## Neden kullanıldı?
-Nesne oluşturma if-else’den kurtarıldı.
-
-## Kazanımlar
-- Daha temiz kod
-- Kolay genişletme
-- Merkezi kontrol
+## Decorator Pattern
+- Dynamic feature addition (speed, shield)
+- No modification of base classes
